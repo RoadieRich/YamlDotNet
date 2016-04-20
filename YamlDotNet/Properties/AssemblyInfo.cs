@@ -32,7 +32,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyDescription("The YamlDotNet library.")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("YamlDotNet")]
-[assembly: AssemblyCopyright("Copyright © Antoine Aubry and contributors 2008, 2009, 2010, 2011, 2012, 2013, 2014")]
+[assembly: AssemblyCopyright("Copyright Â© Antoine Aubry and contributors 2008, 2009, 2010, 2011, 2012, 2013, 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -61,6 +61,8 @@ using System.Runtime.CompilerServices;
 #else
 [assembly: InternalsVisibleTo("YamlDotNet.Test")]
 #endif
+
+[assembly: InternalsVisibleTo("LINQPadQuery")]
 #endif
 
 #endif
